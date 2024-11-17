@@ -14,3 +14,16 @@ Create New Project Listings
 Upload Documents
 Set Application Deadlines
 On the same website, student can see project opportunities
+
+
+
+
+
+Running the Application
+
+
+Place the Folder in your web server's document root (e.g., htdocs for XAMPP).
+Access the Form: Open your browser and navigate to http://localhost/project_seeking/index.html to access the form for uploading projects.
+Submit Projects: Fill out the form and submit it to add projects to the database.
+View Projects: After submission, you can view the uploaded projects by navigating to http://localhost/project_seeking/view_projects.php.
+
