@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Seeking Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        .project-item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Project Seeking Website</h1>
+    </header>
+    
+    <main>
+        <section id="upload-section">
+            <h2>Upload Project</h2>
+            <form id="project-form">
+                <label for="professor-name">Professor Name:</label>
+                <input type="text" id="professor-name" required>
+
+                <label for="project-title">Project Title:</label>
+                <input type="text" id="project-title" required>
+
+                <label for="project-description">Project Description:</label>
+                <textarea id="project-description" required></textarea>
+
+                <button type="submit">Upload Project</button>
+            </form>
+        </section>
+
+        <section id="projects-section">
+            <h2>Available Projects</h2>
+            <div id="projects-list">
+                <!-- Predefined Projects -->
+                <div class="project-item">
+                    <h3>AI Research Project</h3>
+                    <p><strong>Professor:</strong> Dr. Alice Smith</p>
+                    <p>This project focuses on developing advanced AI algorithms for data analysis.</p>
+                    <button onclick="applyForProject('AI Research Project')">Apply</button>
+                </div>
+                <div class="project-item">
+                    <h3>Web Development Bootcamp</h3>
+                    <p><strong>Professor:</strong> Prof. John Doe</p>
+                    <p>A comprehensive bootcamp to learn full-stack web development using modern technologies.</p>
+                    <button onclick="applyForProject('Web Development Bootcamp')">Apply</button>
+                </div>
+                <div class="project-item">
+                    <h3>Machine Learning for Beginners</h3>
+                    <p><strong>Professor:</strong> Dr. Emily Johnson</p>
+                    <p>This project introduces the basics of machine learning and its applications.</p>
+                    <button onclick="applyForProject('Machine Learning for Beginners')">Apply</button>
+                </div>
+                <div class="project-item">
+                    <h3>Cybersecurity Awareness</h3>
+                    <p><strong>Professor:</strong> Dr. Mark Lee</p>
+                    <p>A project aimed at educating students about cybersecurity threats and prevention strategies.</p>
+                    <button onclick="applyForProject('Cybersecurity Awareness')">Apply</button>
+                </div>
+                <div class="project-item">
+                    <h3>Data Visualization Techniques</h3>
+                    <p><strong>Professor:</strong> Prof. Sarah Brown</p>
+                    <p>This project explores various techniques for visualizing complex data sets.</p>
+                    <button onclick="applyForProject
