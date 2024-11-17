@@ -15,7 +15,9 @@ Upload Documents
 Set Application Deadlines
 On the same website, student can see project opportunities
 
+VERCEL APP LINK
 
+https://vercel.com/yash8957s-projects/dotm-iit-jammu-ps-3
 
 
 
